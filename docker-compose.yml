@@ -1,0 +1,13 @@
+worker:
+  build: .
+  ports:
+    - 5000
+  volumes:
+    - .:/opt/crawler-inna-box
+  links:
+    - burlesque
+
+burlesque:
+  image: burlesque
+  ports:
+    - "4401:4401"

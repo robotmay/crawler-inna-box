@@ -1,0 +1,7 @@
+[package]
+name = "crawler-inna-box"
+version = "0.1.0"
+authors = ["Robert May <rob@afternoonrobot.co.uk>"]
+
+[dependencies]
+iron = "*"
